@@ -1,0 +1,12 @@
+var $a;//id
+var $b;//mahsulot soni
+var $c;//natija
+
+select soni from sales where id_mahsulot= $a
+
+
+if(id_mahsulot==$a && soni>=$b){
+	$c=soni-$b;
+}else{
+	echo "error";
+}
